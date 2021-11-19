@@ -14,7 +14,7 @@ class SignIn extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
-            padding: const EdgeInsets.all(30.0),
+        padding: const EdgeInsets.all(30.0),
         child: Column(
           children: [
             const SizedBox(
@@ -32,7 +32,7 @@ class SignIn extends StatelessWidget {
                 ),
               ),
             ),
-             const SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
             const TextField(
@@ -47,7 +47,7 @@ class SignIn extends StatelessWidget {
                 ),
               ),
             ),
-             const SizedBox(
+            const SizedBox(
               height: 5.0,
             ),
             ButtonBar(
@@ -63,3 +63,21 @@ class SignIn extends StatelessWidget {
                 ),
               ],
             ),
+            const SizedBox(
+              height: 60.0,
+            ),
+            TextButton(
+              onPressed: () {},
+              child: const Text(
+                'Create an Account? Signup',
+                style: TextStyle(
+                  fontSize: 15.0,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
