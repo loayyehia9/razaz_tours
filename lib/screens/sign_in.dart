@@ -47,3 +47,19 @@ class SignIn extends StatelessWidget {
                 ),
               ),
             ),
+             const SizedBox(
+              height: 5.0,
+            ),
+            ButtonBar(
+              children: [
+                ElevatedButton(
+                  onPressed: () {},
+                  child: const Text(
+                    'Signin',
+                    style: TextStyle(
+                      fontSize: 15.0,
+                    ),
+                  ),
+                ),
+              ],
+            ),
