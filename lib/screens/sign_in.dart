@@ -32,3 +32,18 @@ class SignIn extends StatelessWidget {
                 ),
               ),
             ),
+             const SizedBox(
+              height: 20.0,
+            ),
+            const TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                hintText: 'Password',
+                hintStyle: TextStyle(
+                  color: Colors.black,
+                ),
+                prefixIcon: Icon(
+                  Icons.password,
+                ),
+              ),
+            ),
