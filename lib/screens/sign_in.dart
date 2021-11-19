@@ -14,3 +14,21 @@ class SignIn extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
+            padding: const EdgeInsets.all(30.0),
+        child: Column(
+          children: [
+            const SizedBox(
+              height: 200.0,
+            ),
+            const TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                hintText: 'Email',
+                hintStyle: TextStyle(
+                  color: Colors.black,
+                ),
+                prefixIcon: Icon(
+                  Icons.email,
+                ),
+              ),
+            ),
